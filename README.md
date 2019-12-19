@@ -12,9 +12,10 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 ## Screenshots
-!["Screenshot of tweet compose box"]()
-!["screenshot of desktop_version"]()
-!["Screenshot of tablet_version]()
+!["Screenshot of tweet compose box"]("https://github.com/malak-dev/tweeter/blob/master/docs/tweet-box.png?raw=true")
+!["screenshot of desktop_version"]("https://github.com/malak-dev/tweeter/blob/master/docs/main_desktop_version.png?raw=true")
+!["Screenshot of tablet_version]("https://github.com/malak-dev/tweeter/blob/master/docs/tablet_version.png?raw=true")
+
 ## Dependencies
 
 - Express
