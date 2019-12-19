@@ -1,0 +1,80 @@
+.new-tweet{
+  padding-left: auto;
+  padding-right: auto;
+  display: none;
+}
+.new-tweet textarea{
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.counter{
+float: right;
+}
+.new-tweet input{
+  background-color: blue;
+  color: white;
+  font-family: 'Bungee', cursive;
+  font-size: medium;
+
+}
+#tweet_list article{
+  background-color:  #f4f1ec;
+  border: 2px solid black;
+margin-bottom: 10px;
+}
+
+#tweet_list header {
+  height: 120px;
+  width: 100%;
+  background-color: #f4f1ec;
+
+}
+#tweet_list header img{
+    padding: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name{
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+.handel{
+  padding:10px;
+  float:right;
+  color: #f4f1ec;
+}
+article:hover{
+  box-shadow: 11px 11px blue;
+}
+article:hover .handel {
+  color: black;
+}
+#image{
+  width: 20px;
+  height: 20px;
+}
+#div button{
+  background-color: transparent;
+}
+#Writetweet{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: medium;
+}
+#div{
+ float: right;
+ background-color:transparent;
+}
+button:hover{
+  border: 2px solid red;
+  border-radius: 20px;
+}
+#errormessage {
+  display: none;
+  border: 2px solid red;
+  color:red;
+  text-align: center;
+}
