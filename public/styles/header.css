@@ -1,7 +1,7 @@
 header{
   height: 400px;
   width: 100%;
-  background-color: brown;
+  background-color: orange;
 }
 
 .im{
@@ -16,7 +16,7 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
   display: flex;
   justify-content:space-between;
 width: 100%;
-  background-color: brown;
+  background-color: orange;
   width: 100%;
 }
 header{

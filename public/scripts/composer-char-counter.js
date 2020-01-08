@@ -1,3 +1,4 @@
+// setting the max limit of chars per tweet
 $(document).ready(function () {
   $('textarea').on('keyup', function (event) {
     if (this.value.length > 140) {

@@ -16,6 +16,7 @@ body {
 }
 #na{
   font-family:'Bungee', cursive;
+
 }
 .container{
   width: 90%;
@@ -23,4 +24,6 @@ body {
   margin-right: auto;
 
 }
-
+footer{
+  font-size: 18px;
+}
