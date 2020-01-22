@@ -1,72 +1,77 @@
-.new-tweet{
-  padding-left: auto;
-  padding-right: auto;
-  display: none;
+.new-tweet {
+  padding-left:auto;
+  padding-right:auto;
+  display:none;
+  
 }
-.new-tweet textarea{
-  background-color: transparent;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid black;
+.new-tweet textarea {
+  background-color:transparent;
+  width:95%;
+  border:none;
+  border-bottom:2px solid black;
+  
 }
-.counter{
-float: right;
+.counter {
+float:right;
 }
-.new-tweet input{
-  background-color: blue;
-  color: white;
-  font-family: 'Bungee', cursive;
-  font-size: medium;
+.new-tweet input {
+  background-color:blue;
+  color:white;
+  font-family:'Bungee', cursive;
+  font-size:medium;
 
 }
-#tweet_list article{
-  background-color:  #f4f1ec;
-  border: 2px solid black;
-margin-bottom: 10px;
+#tweet_list article {
+  background-color:#f4f1ec;
+  border:2px solid black;
+margin-bottom:10px;
 }
-
+#tweet_list{
+  width: 95%;
+}
 
 #tweet_list header {
-  height: 120px;
-  width: 100%;
-  background-color: #f4f1ec;
+  height:120px;
+  width:100%;
+  background-color:#f4f1ec;
 
 }
-#tweet_list header img{
-    padding: 17px;
-    display: inline-block;
-    vertical-align: middle;
+#tweet_list header img {
+    padding:17px;
+    display:inline-block;
+    vertical-align:middle;
 }
-.name{
-  color: black;
-  display: inline-block;
-  vertical-align: middle;
-  font-weight: bold;
-  font-size: 30px; 
+.name {
+  color:black;
+  display:inline-block;
+  vertical-align:middle;
+  font-weight:bold;
+  font-size:30px; 
 }
-#textStyle{
-  border: none;
-  border-bottom: 2px solid black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#textStyle {
+  border:none;
+  border-bottom:2px solid black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-break: break-all
 }
-.handle{
+.handle {
   padding:10px;
   float:right;
   color: #f4f1ec;
 }
-article:hover{
-  -moz-box-shadow:    3px 3px 5px 6px orange;
-  -webkit-box-shadow: 3px 3px 5px 6px orange ;
-  box-shadow:         3px 3px 5px 6px orange;
+article:hover {
+  -moz-box-shadow:3px 3px 5px 6px orange;
+  -webkit-box-shadow:3px 3px 5px 6px orange ;
+  box-shadow: 3px 3px 5px 6px orange;
 }
 article:hover .handle {
   color: black;
 }
-#image{
+#image {
   width: 20px;
   height: 20px;
 }
-#div button{
+#div button {
   background-color: transparent;
 }
 #Writetweet{

@@ -58,7 +58,8 @@ $(document).ready(function () {
   // validating the lenght of the tweet whether if it's over the limits or empty 
   $('#tweetForm').on('submit', function (event) {
     event.preventDefault();
-    let str = $(this).serialize();
+    const str = $(this).serialize();
+    console.log("hello", str)
     if (str.length > 140) {
       $("#errormessage").slideDown().text("Too long, please respect our arbitrary limit of 140 chars.").prepend('<img src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519791-101_Warning-512.png" />');
     } else if (str === "text=") {
