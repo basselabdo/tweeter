@@ -58,17 +58,18 @@ $(document).ready(function () {
   // validating the lenght of the tweet whether if it's over the limits or empty 
   $('#tweetForm').on('submit', function (event) {
     event.preventDefault();
-    const str = $(this).serialize();
+    const str = $(this).find("textarea")[0].value;
     console.log("hello", str)
     if (str.length > 140) {
       $("#errormessage").slideDown().text("Too long, please respect our arbitrary limit of 140 chars.").prepend('<img src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519791-101_Warning-512.png" />');
-    } else if (str === "text=") {
+    } else if (str === "") {
       $("#errormessage").slideDown().text("You can not send an empty tweet").prepend('<img src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519791-101_Warning-512.png" />').
         $("#errormessage").show()
 
     } else {
       $("#errormessage").hide()
-      postTweet('POST', '/tweets', str);
+
+      postTweet('POST', '/tweets', $(this).serialize());
     }
 
   })

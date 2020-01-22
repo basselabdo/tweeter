@@ -14,6 +14,9 @@
 .counter {
 float:right;
 }
+.counter.problem{
+  color:red;
+}
 .new-tweet input {
   background-color:blue;
   color:white;
