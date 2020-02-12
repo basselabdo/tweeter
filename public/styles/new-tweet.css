@@ -22,7 +22,6 @@ float:right;
   color:white;
   font-family:'Bungee', cursive;
   font-size:medium;
-
 }
 #tweet_list article {
   background-color:#f4f1ec;
@@ -99,6 +98,5 @@ button:hover{
 }
 #errormessage img {
   height: 30px;
-  width: 30px;
-  
+  width: 30px; 
 }

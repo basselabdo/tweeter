@@ -7,9 +7,7 @@ $(document).ready(function () {
       $(this).siblings('.counter').text(characterCount).addClass('problem')
     } else {
       $(this).siblings('.counter').text(characterCount).removeClass('problem');
-
     }
   })
-
 });
 

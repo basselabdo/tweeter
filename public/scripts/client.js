@@ -3,21 +3,21 @@
 const renderTweets = function (tweets) {
   for (const tweet of tweets) {
     $('#tweet_list').prepend(createTweetElement(tweet))
-  }
-}
+  };
+};
 // create a new tweet 
 const createTweetElement = function (tweet) {
   const $tweet = $('<article>')
   const $head = $('<header>');
   $('<img>').attr('src', tweet.user.avatars).appendTo($head);
-  $('<span>').addClass('name').text(tweet.user.name).appendTo($head)
+  $('<span>').addClass('name').text(tweet.user.name).appendTo($head);
   $('<span>').addClass('handle').text(tweet.user.handle).appendTo($head);
   $head.appendTo($tweet);
   $('<p id="textStyle">').text(tweet.content.text).appendTo($tweet);
-  const $footer = $('<footer>')
+  const $footer = $('<footer>');
   $('<p>').text(new Date(tweet.created_at).toLocaleString()).appendTo($footer);
   $footer.appendTo($tweet);
-  $('<br>').appendTo($tweet)
+  $('<br>').appendTo($tweet);
   return $tweet;
 }
 
@@ -59,7 +59,6 @@ $(document).ready(function () {
   $('#tweetForm').on('submit', function (event) {
     event.preventDefault();
     const str = $(this).find("textarea")[0].value;
-    console.log("hello", str)
     if (str.length > 140) {
       $("#errormessage").slideDown().text("Too long, please respect our arbitrary limit of 140 chars.").prepend('<img src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519791-101_Warning-512.png" />');
     } else if (str === "") {
