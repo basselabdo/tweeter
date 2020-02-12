@@ -69,6 +69,7 @@ $(document).ready(function () {
       $("#errormessage").hide()
       postTweet('POST', '/tweets', $(this).serialize());
       $(this).find("textarea")[0].value = ""
+      $('.counter').text(140)
     }
 
   })
