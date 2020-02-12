@@ -67,8 +67,8 @@ $(document).ready(function () {
 
     } else {
       $("#errormessage").hide()
-
       postTweet('POST', '/tweets', $(this).serialize());
+      $(this).find("textarea")[0].value = ""
     }
 
   })
